@@ -93,7 +93,7 @@ function insertSort() {
 	var start = new Date().getTime();
 	var pool = getPool();
 	var data = [];
-	
+
 	for (var k = 0; k < 8; k++) {
 		for (var i = 0; i < MAXPEOPLE / 8; i++) {
 
